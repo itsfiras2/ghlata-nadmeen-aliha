@@ -5,8 +5,13 @@
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0e5ed4, #1156be, #1661ec);
+	margin:0;
+	font-family: var(--principal-font);
+	font-size: 12px;
+	color: var(--neutral-dark-color);
+  
+	background: var(--bg-gradient);
+	background-size: cover;
 }
 .main2{
 	width: 450px;
@@ -37,11 +42,11 @@ label{
 }
 input{
 	width: 60%;
-	height: 20px;
+	height: 40px;
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
+	margin: 30px auto;
 	padding: 10px;
 	border: none;
 	outline: none;
@@ -53,8 +58,8 @@ button{
 	margin: 10px auto;
 	justify-content: center;
 	display: block;
-	color: #fff;
-	background: #1352fd;
+	color: rgb(255, 255, 255);
+	background: #8633f3;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -75,7 +80,7 @@ button:hover{
 	transition: .8s ease-in-out;
 }
 .login label{
-	color: #2175d4;
+	color: #8f37f3;
 	transform: scale(.6);
 }
 
